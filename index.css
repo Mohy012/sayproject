@@ -1,0 +1,37 @@
+body{
+    color:aqua;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf191l4wKC4wm7ElQRhT10gUdzMhiuL2v9Wg&s);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+    }
+    .wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+        border: 10px solid rgb(233, 237, 243);
+        border-radius: 12px;
+        background: transparent;
+        backdrop-filter: blur(6px);
+        position: fixed;
+         
+    }
+    .wrapper h2{
+        color: chartreuse;
+        font-size: 30px;
+    }
+    .mohy{
+        position: relative;
+        color: rgb(230, 17, 46);
+    }
+    .forgot{
+         color: rgb(107, 201, 24);
+    }
+    .sign-up{
+        color: rgb(107, 201, 24);
+   }
+    
